@@ -4,7 +4,11 @@ body{
 	font-family: arial;
 }
 
-section{
+h1,h2,h3{
+	margin: 0 auto;
+}
+
+.one{
 	background: url(img/slide_03.jpg)  no-repeat top;
  	-webkit-background-size: cover;
  	background-size: cover;
@@ -15,8 +19,6 @@ section{
 	width: 930px;
 	margin: 0 auto;
 }
-
-
 
 nav{
 	display: inline-block;
@@ -61,6 +63,7 @@ li{
 	margin: 0;
 	text-transform: uppercase;
 }
+
 .maininfo p{
 	line-height: 30px;
 }
@@ -76,3 +79,63 @@ button{
 	cursor: pointer;
 	font-size: 13px;
 }
+
+.two{
+	background: #D4D4D4;
+	padding-bottom: 50px;
+}
+
+h3{
+	text-align: center;
+	padding-top: 5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+hr{
+	border: none; 
+    background-color: black; 
+    height: 3px; 
+    width: 65px;
+}
+
+.blocks{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.block {
+	width: 12rem;
+	min-height: 11rem;
+	background: #F6F6F6;
+	margin: 1rem;
+	display: inline-block;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	border-radius: 2px;
+}
+
+.block img{
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.block h1{
+
+	font-size: 12px;
+	font-weight: 900
+}
+
+.block p{
+	font-size: 11px;
+	line-height: 16px;
+}
+
+.three{
+	background: url(img/what-we-do-bg.png) no-repeat ;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+}
+
+.offers{
+	
