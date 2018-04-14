@@ -227,11 +227,16 @@ hr{
 .five hr{
 	background-color: #FFFFFF;
 }
-.blog{
+.blog img{
+	width: 540px;
+}
+
+.big_blog{
 	position: relative;
 	display: inline-block;
 	max-height: 470px;
 }
+
 
 .black_title{
 	background: rgba(0, 0, 0, 0.5);
@@ -247,4 +252,52 @@ hr{
 	font-size: 13px;
 	margin: 0;
 	padding-top: 15px;
+}
+
+.min_blog{
+	position: relative;
+	display: inline-block;
+	max-height: 220px;
+}
+
+/*СЕКЦИЯ ШЕСТЬ*/
+
+.tablets{
+	margin-top: 80px;
+	text-align: center;
+}
+
+.tab{
+	text-align: center;
+	background: #E3E3E3;
+	height: 6.6rem;
+	padding: 0 50px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.tab p{
+	color: #7E7E7E;
+	margin-bottom: 0;
+	margin-top: 5px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.tab h1{
+	margin-top: 20px;
+	color: #a5ce8c;
+	font-size: 23px;
+}
+
+.seven{
+	background: url(img/contact-bg.png);
+}
+
+.seven h3{
+	color: #FFFFFF;
+}
+
+.seven hr{
+	background-color: #FFFFFF;
 }
