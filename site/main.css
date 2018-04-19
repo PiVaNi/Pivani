@@ -371,6 +371,12 @@ footer{
 	font-size: 20px;
 }
 
+.fas{
+	color: #202528;
+	font-size: 20px;
+}
+
+
 .green_cycle{
 	background: #a5ce8c;
 	display: inline-block;
@@ -384,6 +390,7 @@ footer{
 .social{
 	text-align: right;
 	margin-right: 20px;
+
 }
 
 .design{
