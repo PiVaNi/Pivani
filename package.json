@@ -1,6 +1,10 @@
 {
   "name": "dev",
   "version": "1.0.0",
+<<<<<<< HEAD
+  "description": "",
+=======
+>>>>>>> 161900e40526c0fffd338b18ff56ea432495e1e6
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +14,9 @@
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1"
+<<<<<<< HEAD
+  }
+=======
   },
   "repository": {
     "type": "git",
@@ -20,4 +27,5 @@
   },
   "homepage": "https://github.com/PiVaNi/Pivani#readme",
   "description": ""
+>>>>>>> 161900e40526c0fffd338b18ff56ea432495e1e6
 }

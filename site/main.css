@@ -362,6 +362,12 @@ footer{
 	font-size: 20px;
 }
 
+.fas{
+	color: #202528;
+	font-size: 20px;
+}
+
+
 .green_cycle{
 	background: #a5ce8c;
 	display: inline-block;
@@ -375,6 +381,7 @@ footer{
 .social{
 	text-align: right;
 	margin-right: 20px;
+
 }
 
 .design{
@@ -386,4 +393,26 @@ footer{
 .design span{
 	color: #bc3c3d
 }
+<<<<<<< HEAD
+=======
 
+<<<<<<< HEAD
+=======
+@media(max-width: 989px){
+	ul{text-align: center;
+		padding-top: 20px;
+	}
+	li{
+		padding:20px;
+	}
+	.logo{
+		text-align: center;
+	}
+	.maininfo{
+		margin-top: 20rem;
+	}
+	.offers{text-align: center;}
+	.picture{text-align: center;}
+}
+>>>>>>> 2a8e801b52a80216c744d7f40751363c0386cd3f
+>>>>>>> 82942188c6167534d1173edde5148b1b44049d1a
