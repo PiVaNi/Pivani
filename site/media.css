@@ -1,0 +1,44 @@
+@media(max-width: 989px){
+	ul{text-align: center;
+		padding-top: 20px;
+	}
+	li{
+		padding:20px;
+	}
+	.logo{
+		text-align: center;
+	}
+	.maininfo{
+		margin-top: 20rem;
+	}
+	.offers{text-align: center;}
+	.picture{text-align: center;}
+}
+
+@media(max-width: 767px){
+	.menu{
+		display: none;
+	}
+
+	.fa-bars{
+		visibility: visible;
+		position: static;
+	}
+	.header{
+		margin-top: 4rem;
+	}
+}
+
+@media(max-width: 991px){
+
+	.photos_min{
+	visibility: hidden;
+	position: absolute;
+	}
+	
+	.photos_max img {
+		visibility: visible;
+		position: static;
+		max-width: 100%;
+	}
+}

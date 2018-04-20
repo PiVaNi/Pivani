@@ -51,6 +51,13 @@ li{
 	text-decoration: none;
 }
 
+.fa-bars{
+	margin-left: 13rem;
+	font-size: 50px;
+	color: white;
+	visibility: hidden;
+	position: absolute;
+}
 
 .maininfo{
 	text-align: center;
@@ -193,10 +200,6 @@ button:hover{
     width: 65px;
 }
 
-.our_portfolio img{
-	margin-top: 20px;
-}
-
 .portfolio_menu a{
 	color: #7E7E7E;
 	transition: all 0.5s ease;
@@ -213,10 +216,16 @@ button:hover{
 	text-align: center;
 }
 
-.photos{
-	margin-top: 3rem;
+.photos_min img{
+	margin-top: 4rem;
+	max-width: 100%;
 }
 
+.photos_max img{
+visibility:hidden; 
+position: absolute;
+max-width: 50%;
+}
 
 
 /*ПЯТАЯ СЕКЦИЯ*/
@@ -378,19 +387,3 @@ footer{
 	color: #bc3c3d
 }
 
-@media(max-width: 989px){
-	ul{text-align: center;
-		padding-top: 20px;
-	}
-	li{
-		padding:20px;
-	}
-	.logo{
-		text-align: center;
-	}
-	.maininfo{
-		margin-top: 20rem;
-	}
-	.offers{text-align: center;}
-	.picture{text-align: center;}
-}
