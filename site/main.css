@@ -1,7 +1,6 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: #f2f2f2;
 	font-family: "Open Sans";
 }
 
@@ -11,7 +10,9 @@ h1,h2,h3{
 
 section{
 	padding-bottom: 80px;
+	background: #f2f2f2;
 }
+
 
 
 /*СЕКЦИЯ MAIN*/
@@ -55,7 +56,7 @@ li{
 .maininfo{
 	text-align: center;
 	color: white;
-	margin-top: 35rem;
+	margin-top: 25rem;
 }
 
 .maininfo h2{
@@ -195,6 +196,11 @@ button:hover{
 
 .our_portfolio img{
 	margin-top: 20px;
+	width: 100%;
+}
+
+.portfolio_menu li{
+	padding: 0 20px;
 }
 
 .portfolio_menu a{
@@ -384,8 +390,6 @@ footer{
 .design span{
 	color: #bc3c3d
 }
-<<<<<<< HEAD
-=======
 
 @media(max-width: 989px){
 	ul{text-align: center;
@@ -403,4 +407,4 @@ footer{
 	.offers{text-align: center;}
 	.picture{text-align: center;}
 }
->>>>>>> 2a8e801b52a80216c744d7f40751363c0386cd3f
+
